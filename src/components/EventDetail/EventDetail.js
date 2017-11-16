@@ -21,7 +21,7 @@ class EventDetail extends Component {
                         <p className="event-detail__date">{moment(event.start_datetime).format('MMMM Do YYYY, h:mm:ss a')}</p>
                     </div>
                 )}
-                <Link className="event-detail__link" to="/popular">Go back</Link>
+                <Link className="event-detail__link" to={process.env.PUBLIC_URL + '/popular'}>Go back</Link>
             </section>
         )
     }

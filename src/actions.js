@@ -39,4 +39,4 @@ export const requestEventDetail = id => ({
     }
 })
 
-export const selectEvent = id => push('/event/' + id)
+export const selectEvent = id => push(process.env.PUBLIC_URL + '/event/' + id)
