@@ -10,7 +10,7 @@ class EventDetail extends Component {
         fetchData(id)
     }
     render() {
-        const {event, state} = this.props
+        const {event} = this.props
         return (
             <section className="event-detail">
                 <StatusBar {...this.props}/> {!!event && (

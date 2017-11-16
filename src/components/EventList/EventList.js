@@ -9,7 +9,7 @@ class EventList extends Component {
         fetchData()
     }
     render() {
-        const {title, events, selectEvent, state} = this.props
+        const {title, events, selectEvent} = this.props
         return (
             <div className="event-list">
                 <StatusBar {...this.props}/>
