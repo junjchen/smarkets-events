@@ -17,9 +17,9 @@ class App extends Component {
                     </Link>
                 </header>
                 <main>
-                    <Route exact path='/' render={() => <Redirect to='/popular'/>}/>
-                    <Route exact path='/popular' component={CEventList}/>
-                    <Route exact path='/event/:id' component={CEventDetail}/>
+                    <Route exact path={process.env.PUBLIC_URL + '/'} render={() => <Redirect to={process.env.PUBLIC_URL + '/popular'}/>}/>
+                    <Route exact path={process.env.PUBLIC_URL + '/popular'} component={CEventList}/>
+                    <Route exact path={process.env.PUBLIC_URL + '/event/:id'} component={CEventDetail}/>
                 </main>
             </div>
         )
