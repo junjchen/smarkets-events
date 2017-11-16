@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCard renders same as snapshot 1`] = `
+<section
+  className="event-card"
+  onClick={[Function]}
+>
+  <h3
+    className="event-card__title"
+  >
+    name
+  </h3>
+  <p
+    className="event-card__category"
+  >
+    category
+  </p>
+</section>
+`

@@ -1,0 +1,8 @@
+.event-detail__name {
+    font-weight: 400
+}
+
+.event-detail__link {
+    display: block;
+    margin: 1em 0;
+}

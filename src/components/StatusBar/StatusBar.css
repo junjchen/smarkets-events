@@ -1,0 +1,18 @@
+.status-bar {
+    font-size: 0.8em;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 160, 71);
+}
+
+.status-bar p {
+    margin: 0.5em 0;
+}
+
+.status-bar--error {
+    background-color: rgb(244, 81, 30);
+}
+
+.status-bar--fetching {
+    background-color: rgb(117, 117, 117);
+}

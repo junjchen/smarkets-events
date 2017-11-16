@@ -1,0 +1,27 @@
+{
+  "name": "smarkets-events",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "jest-enzyme": "^4.0.1",
+    "moment": "^2.19.2",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.1.1",
+    "redux": "^3.7.2",
+    "redux-api-middleware": "^2.0.0-beta.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

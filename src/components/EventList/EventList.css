@@ -1,0 +1,23 @@
+.event-list__title {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.event-list__status {
+    font-size: 0.8em;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 160, 71);
+}
+
+.event-list__status p {
+    margin: 0.5em 0;
+}
+
+.event-list__status--error {
+    background-color: rgb(244, 81, 30);
+}
+
+.event-list__status--fetching {
+    background-color: rgb(117, 117, 117);
+}

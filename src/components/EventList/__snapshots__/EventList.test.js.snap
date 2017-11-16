@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventList renders same as snapshot 1`] = `
+<div
+  className="event-list"
+>
+  <StatusBar
+    events={
+      Array [
+        Object {
+          "id": 1,
+          "name": "name",
+          "parent_name": "category",
+          "short_name": "short_name",
+          "start_datetime": 1990-10-09T23:00:00.000Z,
+        },
+        Object {
+          "id": 2,
+          "name": "name",
+          "parent_name": "category",
+          "short_name": "short_name",
+          "start_datetime": 1990-10-09T23:00:00.000Z,
+        },
+      ]
+    }
+    fetchData={[Function]}
+  />
+  <h1
+    className="event-list__title"
+  />
+  <div
+    className="event-list__container"
+  >
+    <EventCard
+      id={1}
+      key="0"
+      name="name"
+      parent_name="category"
+      short_name="short_name"
+      start_datetime={1990-10-09T23:00:00.000Z}
+    />
+    <EventCard
+      id={2}
+      key="1"
+      name="name"
+      parent_name="category"
+      short_name="short_name"
+      start_datetime={1990-10-09T23:00:00.000Z}
+    />
+  </div>
+</div>
+`;

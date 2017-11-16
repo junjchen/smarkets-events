@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBar renders same as snapshot 1`] = `
+<div
+  className="status-bar"
+>
+  <p>
+    Last updated: 
+    October 10th 1990, 12:00:00 am
+  </p>
+</div>
+`;
